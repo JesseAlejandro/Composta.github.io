@@ -107,4 +107,121 @@ cerrado, llamado “sistema de tambores DANO”
 
     <script src="script.js"></script>
 </body>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0f7fa;
+    color: #333;
+}
+
+header {
+    background-color: #388E3C;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+}
+header img{
+    width: 230px;
+    height: 230px;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+p {
+    font-size: 2.0rem;
+}
+
+section {
+    padding: 2rem;
+    margin: 1rem auto;
+    max-width: 900px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;   
+}
+
+h2 {
+    font-size: 2.2rem;
+    color: #2e7d32;
+    margin-bottom: 2.2rem;
+    position: relative;
+}
+
+h2::after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 5px;
+    background-color: #81c784;
+    margin-top: 10px;
+    transition: width 0.3s ease;
+}
+
+h2:hover::after {
+    width: 150px;
+}
+
+ul, ol {
+    margin-left: 1.5rem;
+    font-size: 2.0rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #2e7d32;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+/* Animación de fondo */
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://www.transparenttextures.com/patterns/paper-fibers.png');
+    opacity: 0.1;
+    z-index: -1;
+}
+
+#origen, #moderna, #usos, #materiales, #evitar, #proceso, #tipos {
+    background-color: #f1f8e9;
+}
+
+li {
+    position: relative;
+    transition: transform 0.3s ease;
+
+}
+
+li:hover {
+    transform: scale(1.05);
+    background-color: #e8f5e9;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+    </style>
 </html>
