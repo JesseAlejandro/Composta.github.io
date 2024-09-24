@@ -80,9 +80,13 @@ footer {
 
 footer p {
     margin: 0;
-    font-size: 0.9rem;
-}
+    font-size: 1.5rem;
 
+}
+footer img{
+
+    width: 220px;
+}
 /* Animación de fondo */
 body::before {
     content: '';
@@ -112,3 +116,4 @@ li:hover {
     padding: 0.5rem;
     border-radius: 5px;
 }
+
